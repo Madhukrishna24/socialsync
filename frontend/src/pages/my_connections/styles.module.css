@@ -1,0 +1,53 @@
+.mainContainer {
+  padding-inline: 3rem;
+  padding-block: 1rem;
+}
+.userCard {
+  display: flex;
+  width: 100%;
+  gap: 1.2rem;
+  /* padding: 1.3rem; */
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  padding-inline: 2.8rem;
+  border-radius: 20px;
+  border: 1px solid silver;
+  cursor: pointer;
+}
+.profilePicture {
+  padding: 0.3rem;
+}
+
+.profilePicture > img {
+  width: 4.5rem;
+  border-radius: 50%;
+}
+
+.myConnections {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.connectedButton {
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  border: 1px solid;
+  outline: none;
+  color: rgba(3, 93, 183, 0.905);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.connectBtn {
+  padding-inline: 0.8rem;
+  padding-block: 0.3rem;
+  background-color: rgba(3, 93, 183, 0.905);
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}

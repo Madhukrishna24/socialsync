@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    height: 90svh;
+    justify-content: center;
+    align-items: center;
+    background: snow;
+}
+
+.cardContainer {
+    height: 80vh;
+    width: 80vw;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 10px 10px 15px rgb(173, 173, 173);
+}
+
+.cardContainer__left {
+    flex: 0.6;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cardleft__heading {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.inputField {
+    padding-inline: 1.3rem;
+    padding-block: 0.8rem;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid silver;
+    width: 100%;
+}
+
+
+.inputContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1.3rem;
+    max-width: 400px;
+    margin: 0 auto;
+    gap: 1.5rem;
+}
+
+.inputRow {
+    display: flex;
+    gap: 1.2rem;
+    
+
+}
+
+.buttonContainer {
+    /* margin-top: 1.3rem; */
+    border-radius: 10px;
+    padding: 0.8rem 1.2rem;
+    background-color: rgb(232, 231, 231);
+    width: 100%;
+    cursor: pointer;
+}
+.buttonContainer:hover {
+   background-color: rgb(221, 215, 215); 
+}
+.cardContainer__right {
+    flex: 0.4;
+    background: rgba(7, 15, 248, 0.731);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1.2rem;
+}
+
+.cardContainer__right > div > div{
+    margin-top: 1rem;
+}
